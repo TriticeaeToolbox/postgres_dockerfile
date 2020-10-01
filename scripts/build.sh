@@ -11,7 +11,8 @@ SCRIPTS_DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 DOCKER_DIR="$(dirname $SCRIPTS_DIR)"
 
 # use the yyyymmdd timestamp as the tag
-export T3_DB_TAG=$(date "+%Y%m%d")
+T3_DB_TAG=$(date "+%Y%m%d")
+echo "$T3_DB_TAG" > "$SCRIPTS_DIR/.tag"
 
 # build the image
 docker build -t triticeaetoolbox/breedbase_database:$T3_DB_TAG "$DOCKER_DIR"
