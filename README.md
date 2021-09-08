@@ -1,3 +1,10 @@
+> :warning: &nbsp;&nbsp; **ARCHIVED** &nbsp;&nbsp; :warning:<br />
+> This repository is no longer used by the T3/Breedbase Docker instances.<br />
+> T3/Breedbase now uses the official postgres Docker image for the database service.<br />
+> For more information on running T3/Breedbase, see [TriticeaeToolbox/breedbase](https://github.com/TriticeaeToolbox/breedbase)
+
+-----
+
 [![Build Status](https://travis-ci.com/solgenomics/postgres_dockerfile.svg?branch=master)](https://travis-ci.com/solgenomics/postgres_dockerfile)
 
 # postgres_dockerfile
